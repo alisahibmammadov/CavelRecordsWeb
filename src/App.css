@@ -1,4 +1,13 @@
-#root {
+.cavel-main {
+  background: url("../src/assets//WhatsApp\ Image\ 2025-04-05\ at\ 23.19.49.jpeg")
+    no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +48,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
