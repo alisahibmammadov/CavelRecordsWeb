@@ -10,7 +10,8 @@
 /* App.css */
 .app {
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
+  padding: 40px;
   overflow: hidden;
 }
 
@@ -29,7 +30,7 @@
   z-index: 1;
   color: white;
   text-align: center;
-  top: 10%;
+  /* top: 10%; */
 }
 
 /* #root {

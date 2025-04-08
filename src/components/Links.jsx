@@ -10,7 +10,7 @@ function Links() {
           <a
             href={`${link.link}`}
             target="_blank"
-            className="bg-white text-black font-semibold text-[12px] transition-[10s] hover:cursor-pointer hover:bg-green-400  rounded-[5px] py-2  pl-[20px] pr-20 flex items-center  w-[270px] justify-between "
+            className="bg-white text-black font-semibold md:text-3xl text-[12px] transition-[10s] hover:cursor-pointer hover:bg-green-400  rounded-[5px] md:py-5 py-2  pl-[20px] pr-20 flex items-center  md:w-[570px] w-[270px] justify-between "
           >
             <i className={`fa-brands ${link.linkIcon} text-xl `}></i>
             <p className="flex items-center justify-center  w-[60%]">
