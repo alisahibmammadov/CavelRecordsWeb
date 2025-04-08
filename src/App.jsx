@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
-import videoBg from "./assets/bgvideo.mp4"; // videonun yolunu düz göstər
-// import { Links } from "react-router-dom";
+import videoBg from "./assets/bgvideo.mp4"; 
 import Links from "./components/Links";
 import Navbar from "./components/Navbar";
 
