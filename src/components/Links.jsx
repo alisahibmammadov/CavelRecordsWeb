@@ -8,12 +8,14 @@ function Links() {
       <div className="to-blue-700 flex flex-col items-center gap-2">
         {LinkData.map((link) => (
           <a
-            href="https://www.youtube.com/@UtopiXI"
+            href={`${link.link}`}
             target="_blank"
-            className="bg-white text-black font-semibold text-[12px] transition-[10s] hover:cursor-pointer hover:bg-green-400  rounded-2xl py-2  pl-[20px] pr-20 flex items-center  w-[270px] justify-between "
+            className="bg-white text-black font-semibold text-[12px] transition-[10s] hover:cursor-pointer hover:bg-green-400  rounded-[5px] py-2  pl-[20px] pr-20 flex items-center  w-[270px] justify-between "
           >
-            <i className={`fa-brands ${link.linkIcon} `}></i>
-            <p className="flex items-center justify-center  w-[60%]">{link.linkName}</p>
+            <i className={`fa-brands ${link.linkIcon} text-xl `}></i>
+            <p className="flex items-center justify-center  w-[60%]">
+              {link.linkName}
+            </p>
           </a>
         ))}
       </div>
