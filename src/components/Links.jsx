@@ -10,10 +10,10 @@ function Links() {
           <a
             href="https://www.youtube.com/@UtopiXI"
             target="_blank"
-            className="bg-white text-black font-semibold text-[12px] hover:cursor-pointer hover:bg-green-400  rounded-2xl py-2  pl-[20px] pr-20 flex items-center  w-[270px] justify-between "
+            className="bg-white text-black font-semibold text-[12px] transition-[10s] hover:cursor-pointer hover:bg-green-400  rounded-2xl py-2  pl-[20px] pr-20 flex items-center  w-[270px] justify-between "
           >
-            <i className={`fa-brands ${link.linkIcon} `}></i> 
-            {link.linkName}
+            <i className={`fa-brands ${link.linkIcon} `}></i>
+            <p className="flex items-center justify-center  w-[60%]">{link.linkName}</p>
           </a>
         ))}
       </div>
