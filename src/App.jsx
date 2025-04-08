@@ -11,7 +11,7 @@ function App() {
         <source src={videoBg} type="video/mp4" />
       </video>
 
-      <div className="content flex flex-col gap-5">
+      <div className="content flex flex-col gap-5 md:gap-8">
         <Navbar />
         <Links />
       </div>
