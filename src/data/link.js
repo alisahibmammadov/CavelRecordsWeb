@@ -25,20 +25,32 @@ const LinkData = [
   },
   {
     id: 5,
+    link: "https://www.youtube.com/@CavelRecords",
+    linkName: "Cavel Records",
+    linkIcon:"fa-youtube"
+  },
+  {
+    id: 6,
     link: "https://www.youtube.com/@MelodiXI",
     linkName: "MelodiXI",
     linkIcon:"fa-youtube"
   },
   {
-    id: 6,
+    id: 7,
     link: "https://www.youtube.com/@UtopiXI",
     linkName: "UtopiXI",
     linkIcon:"fa-youtube"
   },
   {
-    id: 7,
+    id: 8,
     link: "https://t.me/CavelRecords",
     linkName: "Cavel Records",
+    linkIcon:"fa-telegram"
+  },
+  {
+    id: 9,
+    link: "https://t.me/searchmusic1",
+    linkName: "Search Music",
     linkIcon:"fa-telegram"
   },
 ];
