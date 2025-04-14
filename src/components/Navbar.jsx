@@ -7,7 +7,7 @@ function Navbar() {
       <div className=" flex">
         <img src={CavelCover} alt="Cavel Records" className="m-2 rounded-ful md:w-[200px] w-[132px] rounded-full"/>
       </div>
-      <div><h2 className="font-bold text-[28px] text-[#fff] md:text-7xl">Cavel Records</h2></div>
+      <div><h2 className="font-bold text-[28px] text-[#fff] md:text-7xl">Only music knows the heaviness of my silence...</h2></div>
     </main>
   );
 }
