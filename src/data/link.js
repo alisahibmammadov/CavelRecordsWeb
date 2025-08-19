@@ -1,57 +1,15 @@
 const LinkData = [
   {
     id: 1,
-    link: "https://music.yandex.com/users/nphne-5kmuxbrm/playlists/1000?utm_medium=copy_link",
-    linkName: "Yandex Playlist",
-    linkIcon:"fa-yandex"
+    link: "https://www.youtube.com/@CavelRecords",
+    linkName: "Cavel Records",
+    linkIcon: "fa-brands fa-youtube",
   },
   {
     id: 2,
-    link: "https://music.apple.com/az/playlist/searchmusic/pl.u-06oxpqNCWADj5yz",
-    linkName: "Apple Music",
-    linkIcon:"fa-itunes-note"
-  },
-  {
-    id: 3,
-    link: "https://open.spotify.com/user/31btadld7eft7lid2hvi3zidu624?si=9kwwNSc9Ta6GzLc60zJJnw",
-    linkName: "Spotify Playlist",
-    linkIcon:"fa-spotify"
-  },
-  {
-    id: 4,
-    link: "https://www.youtube.com/@HarmoniXI",
-    linkName: "HarmoniXI",
-    linkIcon:"fa-youtube"
-  },
-  {
-    id: 5,
-    link: "https://www.youtube.com/@CavelRecords",
-    linkName: "Cavel Records",
-    linkIcon:"fa-youtube"
-  },
-  {
-    id: 6,
-    link: "https://www.youtube.com/@MelodiXI",
-    linkName: "MelodiXI",
-    linkIcon:"fa-youtube"
-  },
-  {
-    id: 7,
-    link: "https://www.youtube.com/@UtopiXI",
-    linkName: "UtopiXI",
-    linkIcon:"fa-youtube"
-  },
-  {
-    id: 8,
-    link: "https://t.me/CavelRecords",
-    linkName: "Cavel Records",
-    linkIcon:"fa-telegram"
-  },
-  {
-    id: 9,
-    link: "https://t.me/searchmusic1",
-    linkName: "Search Music",
-    linkIcon:"fa-telegram"
+    link: "https://www.beatport.com/label/cavel-records/96614?srsltid=AfmBOopVY6OT9yZ8z6slLE3C9W7YJ9zn51s_vUkO6y85Glt_jPLJjOgM",
+    linkName: "BeatPort",
+    linkIcon: "fa-solid fa-play",
   },
 ];
 export default LinkData;
